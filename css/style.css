@@ -1,0 +1,259 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.4rem;
+    background-color: rgb(235, 235, 235);
+}
+
+body>* {
+    padding: 0 1em;
+}
+
+.wrapper {
+    margin-right: auto;
+    /* 1 */
+    margin-left: auto;
+    /* 1 */
+    max-width: 60rem;
+    /* 2 */
+    padding-right: 10px;
+    /* 3 */
+    padding-left: 10px;
+    /* 3 */
+}
+
+header {
+    background-color: rgb(4, 10, 22);
+    color: aliceblue;
+    padding: 1.8em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    display: none;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.login {
+    max-width: 60rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 9rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    border-radius: .3rem;
+}
+
+.detail {
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 30rem;
+    margin-left: -10px;
+    padding: 2rem;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.detail h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2rem 0;
+    line-height: 2rem;
+}
+
+.connect {
+    width: 35rem;
+    height: 100%;
+    text-align: center;
+}
+
+.connect img {
+    width: 20rem;
+}
+
+.connect label {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.connect input {
+    margin: .5rem 0;
+    border: none;
+    background-color: rgb(217, 223, 226);
+    padding: .5rem 1rem;
+    width: 18rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.connect button {
+    background-color: rgb(0, 162, 255);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: .7em 4em;
+    margin-top: 1rem;
+    border-radius: .3rem;
+}
+
+.question {
+    max-width: 70;
+    background-color: rgb(235, 235, 235);
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.question h2 {
+    font: 2em sans-serif;
+    font-weight: bolder;
+    margin: 2rem 0;
+    color: rgb(0, 162, 255);
+}
+
+.cont {
+    margin: 1rem auto;
+    width: 35rem;
+    font: 1em sans-serif;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image,
+.quiz {
+    margin: 2rem 0;
+    line-height: 1.7em;
+}
+
+li {
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: .8em .5em;
+    border-radius: 2rem;
+}
+
+li:hover {
+    background-color: rgb(224, 238, 247);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+li span {
+    padding: .3rem .6rem;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 162, 255);
+    margin-right: 2rem;
+}
+
+.ctn-note {
+    margin-top: 1rem;
+    text-align: right;
+    display: none;
+}
+
+.reponse p {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: castellar;
+}
+
+.ctn-note button {
+    background-color: rgb(255, 167, 4);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: .7em 4em;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    font-size: 1em;
+}
+
+#open {
+    display: block;
+}
+
+#close {
+    display: none;
+}
+
+.resultat {
+    text-align: center;
+}
+
+.userN {
+    color: rgb(0, 162, 255);
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+.resultat p {
+    font-size: 1.3em;
+    color: rgb(20, 4, 22);
+}
+
+.point {
+    font-size: 4em;
+    margin: 4rem 0;
+}
+
+.bar {
+    background-color: rgb(238, 238, 238);
+    width: 70%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 5px solid #d1d1d1;
+}
+
+.emb {
+    background-color: #b68500;
+    height: 9.4rem;
+}
+
+.res {
+    text-align: center;
+}
+
+.res button {
+    border: none;
+    padding: 1rem 3rem;
+    background-color: #ffbb00;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+.res button:hover {
+    background-color: #ffcf4a;
+}
+
+.res button:active {
+    background-color: #b68500;
+}
+
+footer {
+    background-color: rgb(20, 4, 22);
+    color: aliceblue;
+    padding: 2em 1.5em;
+    box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    display: none;
+}
